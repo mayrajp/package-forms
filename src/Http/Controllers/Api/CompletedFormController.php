@@ -2,7 +2,7 @@
 
 namespace Mayrajp\Forms\Http\Controllers\Api;
 
-use Mayrajp\Forms\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Mayrajp\Forms\Http\Requests\CompletedFormRequest;
 use Mayrajp\Forms\Http\Resources\CompletedFormResource;
 use Mayrajp\Forms\Models\CompletedForm;
