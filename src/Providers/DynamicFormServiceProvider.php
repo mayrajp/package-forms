@@ -27,7 +27,7 @@ class FormularioContatoServiceProvider extends ServiceProvider
         //         ->controller(DynamicFormController::class)->group(function () {
         //             Route::get('/dynamic_forms/all', 'index');
         //             Route::post('/dynamic_forms/create', 'create');
-        //             Route::get('/dynamic_forms/show/{id}', 'show');
+        //             Route::get('/dynahttps://packagist.org/packages/mayrajp/forms#v1.0.1mic_forms/show/{id}', 'show');
         //             Route::put('/dynamic_forms/update/{id}', 'update');
         //             Route::delete('/dynamic_forms/delete/{id}', 'destroy');
         //         });
