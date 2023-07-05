@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
 
-class FormularioContatoServiceProvider extends ServiceProvider
+class DynamicFormServiceProvider extends ServiceProvider
 {
     public function boot()
     {

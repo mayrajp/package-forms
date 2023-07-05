@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "src\\Providers\\DynamicFormServiceProvider"
+                "Mayrajp\\Forms\\Providers\\DynamicFormServiceProvider"
             ]
         }
     }
