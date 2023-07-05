@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mayrajp\\Forms\\' => array($baseDir . '/packages/dynamic/forms/src'),
+    'Mayrajp\\Forms\\' => array($baseDir . '/src'),
     'App\\' => array($baseDir . '/app'),
 );

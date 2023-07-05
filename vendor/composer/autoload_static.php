@@ -20,7 +20,7 @@ class ComposerStaticInite2e9b4113602268d7f1797d618479aaf
     public static $prefixDirsPsr4 = array (
         'Mayrajp\\Forms\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/packages/dynamic/forms/src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'App\\' => 
         array (
