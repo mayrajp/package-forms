@@ -10,7 +10,7 @@ class DynamicFormServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadMigrationsFrom('/database/migrations');
+        $this->loadMigrationsFrom(str_replace('/src', '/database/migrations', __DIR__));
         // $this->loadRoutesFrom('/routes/api.php');
 
 
