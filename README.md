@@ -17,6 +17,11 @@ This package aims to provide APIs for developing dynamic forms.
 ***Warning** : If you want to see the routes updated with the latest version of the package, access the folder /vendor/mayrajp/forms/routes
 
 ```sh
+
+use Mayrajp\Forms\Http\Controllers\Api\CompletedFormController;
+use Mayrajp\Forms\Http\Controllers\Api\DynamicFormController;
+use Mayrajp\Forms\Http\Controllers\Api\FieldController;
+
 Route::controller(DynamicFormController::class)->group(function () {
     Route::get('/dynamic_forms/all', 'index');
     Route::post('/dynamic_forms/create', 'create');
