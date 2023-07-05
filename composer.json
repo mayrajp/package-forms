@@ -1,0 +1,26 @@
+{
+    "name": "mayrajp/forms",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Mayrajp\\Forms\\": "packages/dynamic/forms/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mayrajp",
+            "email": "may.musique@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mayrajp\\Forms\\Providers\\DynamicFormServiceProvider"
+            ]
+        }
+    }
+}
